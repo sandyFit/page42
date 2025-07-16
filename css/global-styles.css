@@ -31,7 +31,7 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #EEEBF3;
     text-decoration: none;
@@ -41,15 +41,17 @@ body {
 }
 
 .logo-icon {
-    width: 32px;
-    height: 32px;
-    background: linear-gradient(45deg, #38E6A2, #6E33B1);
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(45deg, #38E6A2, #7438b9);
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-weight: 600;
+    color: BLACK;
+    font-weight: 700;
+    padding-right: 6px;
+    padding-left: 4px;
 }
 
 .nav-links {
@@ -152,7 +154,7 @@ body {
 }
 
 .widget {
-    background: rgba(14, 3, 7, 0.6);
+    background: rgb(45, 18, 61);
     border: 1px solid rgba(238, 235, 243, 0.1);
     border-radius: 20px;
     padding: 1.5rem;
@@ -174,7 +176,7 @@ body {
 }
 
 .project-card {
-    background: linear-gradient(135deg, #6E33B1 0%, #38E6A2 100%);
+    background: linear-gradient(135deg, #9c65fb 0%, #764ba2 100%);
     border-radius: 12px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -200,6 +202,8 @@ body {
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.8rem;
+    color: white;
+    font-weight: 400;
 }
 
 .team-member {
@@ -301,13 +305,13 @@ body {
     position: absolute;
     background: linear-gradient(45deg, #38E6A2, #6E33B1);
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     animation: float 3s ease-in-out infinite;
 }
 
